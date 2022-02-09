@@ -10,7 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CarpoolBuddy">
         <activity
-            android:name=".MainActivity"
+            android:name=".RemoveBookingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".OpenCloseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".VehicleProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".VehiclesInfoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AuthActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

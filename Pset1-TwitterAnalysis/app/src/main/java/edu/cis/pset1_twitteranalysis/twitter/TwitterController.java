@@ -187,7 +187,7 @@ public class TwitterController {
 
                 for (String comWord:commonWords)
                 {
-                    if (wor == comWord)
+                    if (wor.equals(comWord))
                     {
                         wor = null;
                     }
